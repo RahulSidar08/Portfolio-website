@@ -56,7 +56,7 @@ export const Navbar = () => {
           </button>
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600 transition"
+            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-black dark:text-gray-200 hover:bg-gray-300 dark:hover:bg-gray-600 transition"
             aria-label="Toggle Theme"
           >
             {theme === "dark" ? <FiSun className="text-xl" /> : <FiMoon className="text-xl" />}
@@ -68,9 +68,9 @@ export const Navbar = () => {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="hidden md:block text-2xl font-bold text-gray-800 dark:text-white whitespace-nowrap mx-auto"
+          className="hidden md:block text-2xl font-bold text-gray-800 dark:text-white whitespace-nowrap "
         >
-          <span className="text-purple-600 font-vibe italic text-4xl sm:text-5xl">
+          <span className="font-vibe italic sm:text-4xl">
             Rahul Sidar
           </span>
         </motion.h1>
