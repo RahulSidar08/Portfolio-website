@@ -85,10 +85,6 @@ export const About = () => {
               With expertise in front-end technologies like JavaScript, React, Redux, and modern CSS frameworks, 
               as well as back-end knowledge including Node.js and Nest.js, I'm equipped to build complete, scalable solutions.
             </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-              Currently in my final year of B.Tech in Computer Science & Engineering at IIIT Naya Raipur, 
-              I'm continuously seeking to expand my knowledge and skill set. 
-            </p>
 
             {/* Tabs */}
             <div className="flex space-x-6 border-b border-gray-300 dark:border-gray-700 mb-6">
@@ -155,7 +151,6 @@ export const About = () => {
                   >
                     <h4 className="text-xl font-bold">IIIT Naya Raipur</h4>
                     <p className="text-gray-600 dark:text-gray-400">B.Tech in Computer Science & Engineering (2021-2025)</p>
-                    <p>Final year student with strong focus on software development.</p>
                   </motion.div>
                 </motion.div>
               )}
